@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Caros';
+  src: url('../fonts/Bold.woff');
+}
+
+.bg-red {
+  color: red;
+}
+
+.text-catalina {
+  font-weight: bold;
+  color: rgb(31, 56, 107);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.degraded {
+  background: rgb(130, 130, 255);
+
+  background: linear-gradient(180deg, rgba(130, 130, 255, 1) 29%, rgb(71, 135, 231) 100%);
+}
+
+.text_Center {
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.text-two {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bolder;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.text-three {
+  font-weight: initial;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn-download {
+  border: 1px solid #fff;
+  padding: 20px;
+  border-radius: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+.btn-download:hover {
+  color: #000;
+  border: 1px solid #000;
+}
+
+.centerImgPrice {
+  position: relative;
+  z-index: 1;
+  top: 60px;
+  left: 55px;
+}
+
+.iconCircle {
+  color: #fff;
+  background-color: #34acbf;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #34acbf;
+  padding: 10px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.circle-image {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #1f386b;
+  padding: 10px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-price {
+  display: flex;
+  text-align: center;
+  height: 250px;
+  padding: 120px 0px 40px 0px;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.btn-cesta {
+  width: 160px;
+}
+
+.section-suscribirme {
+  background: rgb(31, 56, 107);
+  margin-top: 50px;
+}
+
+.four_card {
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.img-lavadora {
+  width: 80px;
+  height: 80px;
+  left: 230px;
+  position: relative;
+  z-index: 1;
+  top: 260px;
+}
