@@ -1,21 +1,58 @@
 @font-face {
-  font-family: 'Caros';
-  src: url('../fonts/Bold.woff');
+  font-family: 'Caros Bold';
+  src: url('../fonts/cretypeCarosBold.woff');
 }
 
-.bg-red {
-  color: red;
+@font-face {
+  font-family: 'Caros Extra Light';
+  src: url('../fonts/cretype\ \ Caros\ ExtraLight.woff');
 }
 
-.text-catalina {
-  font-weight: bold;
-  color: rgb(31, 56, 107);
+.fontCarosBold {
+  font-family: 'Caros Bold';
+}
+.fontCarosExtraLight {
+  font-family: 'Caros Extra Light';
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.margin-r {
+  margin-right: 10px;
+}
+
+.margin-l {
+  margin-left: 10px;
+}
+
+.bg-red {
+  color: red;
+}
+.bg-green {
+  color: #909090;
+  text-decoration: none;
+}
+
+.bg-catalinaBlue {
+  color: #1f386b;
+}
+
+.bg-catalina {
+  font-weight: bold;
+  color: #34acbf;
+}
+
+.bg-green:hover {
+  color: #000;
+}
+
+.text-catalina {
+  font-weight: bold;
+  color: #1f386b;
 }
 
 .degraded {
@@ -33,24 +70,29 @@
 .text-two {
   color: #fff;
   font-size: 30px;
-  font-weight: bolder;
+  /* font-weight: bolder; */
   line-height: normal;
   margin-bottom: 0px;
 }
 
 .text-three {
-  font-weight: initial;
+  /* font-weight: initial; */
   font-size: 15px;
   color: #fff;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .btn-download {
   border: 1px solid #fff;
-  padding: 20px;
+  padding: 10px;
   border-radius: 50px;
   color: #fff;
   text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  width: 250px;
+  justify-content: space-around;
+  align-items: center;
 }
 .btn-download:hover {
   color: #000;
@@ -95,6 +137,10 @@
   align-items: center;
 }
 
+.circle-image:hover {
+  background-color: #34acbf;
+}
+
 .card-price {
   display: flex;
   text-align: center;
@@ -108,6 +154,9 @@
 
 .btn-cesta {
   width: 160px;
+}
+.btn-cesta:hover {
+  background-color: #1f386b;
 }
 
 .section-suscribirme {
@@ -124,10 +173,9 @@
 }
 
 .img-lavadora {
-  width: 80px;
-  height: 80px;
-  left: 230px;
+  width: 120px;
+  height: 120px;
+  left: 210px;
   position: relative;
   z-index: 1;
-  top: 260px;
 }
