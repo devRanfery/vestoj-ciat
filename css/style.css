@@ -152,6 +152,10 @@
   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
+.bg-price {
+  background-color: #d9f4ff;
+}
+
 .btn-cesta {
   width: 160px;
 }
@@ -161,7 +165,6 @@
 
 .section-suscribirme {
   background: rgb(31, 56, 107);
-  margin-top: 50px;
 }
 
 .four_card {
