@@ -21,6 +21,10 @@
   box-sizing: border-box;
 }
 
+.img_cover {
+  object-fit: cover;
+}
+
 .margin-r {
   margin-right: 10px;
 }
