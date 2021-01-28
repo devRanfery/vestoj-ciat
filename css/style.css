@@ -59,6 +59,16 @@
   color: #1f386b;
 }
 
+.btn-top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.SectionAbout {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .degraded {
   background: rgb(130, 130, 255);
 
@@ -156,6 +166,19 @@
   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
+.inputSub {
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.beneficiosRowOne {
+  position: relative;
+  top: 20px;
+}
+.beneficiosRowTwo {
+  position: relative;
+  bottom: 20px;
+}
+
 .bg-price {
   background-color: #d9f4ff;
 }
@@ -169,6 +192,11 @@
 
 .section-suscribirme {
   background: rgb(31, 56, 107);
+}
+.targetFourCenter {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .four_card {
@@ -202,5 +230,44 @@
   }
   .bg-price {
     height: 1800px;
+  }
+  .SectionAbout {
+    display: none;
+  }
+  .centerImgPrice {
+    left: 93px;
+  }
+  .text_Center {
+    height: 250px;
+  }
+  .inputSub {
+    border-radius: 5px;
+  }
+  .img-lavadora {
+    display: none;
+  }
+  .targetFourCenter {
+    justify-content: flex-start;
+  }
+  .contenedor-beneficios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .four_card {
+    width: 170px;
+    height: 170px;
+  }
+  .beneficiosRowOne {
+    top: 0px;
+  }
+  .beneficiosRowTwo {
+    bottom: 0px;
+  }
+  .content-cards {
+    margin-bottom: 10px;
+  }
+  .btn-top {
+    justify-content: space-between;
   }
 }
