@@ -75,6 +75,11 @@
   background: linear-gradient(180deg, rgba(130, 130, 255, 1) 29%, rgb(71, 135, 231) 100%);
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+}
+
 .text_Center {
   height: 200px;
   display: flex;
@@ -117,7 +122,7 @@
   position: relative;
   z-index: 1;
   top: 60px;
-  left: 55px;
+  /* left: 55px; */
 }
 
 .iconCircle {
@@ -216,7 +221,7 @@
 }
 
 .btn-flotante {
-  font-size: 20px;
+  font-size: 28px;
   font-weight: bold;
   color: #ffffff;
   border-radius: 5px 0px 0px 5px;
@@ -239,7 +244,7 @@
 
 @media only screen and (max-width: 600px) {
   .btn-flotante {
-    font-size: 14px;
+    font-size: 24px;
     padding: 12px 20px;
     bottom: 100px;
   }
@@ -260,9 +265,6 @@
   }
   .SectionAbout {
     display: none;
-  }
-  .centerImgPrice {
-    left: 93px;
   }
   .text_Center {
     height: 250px;
