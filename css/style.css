@@ -276,7 +276,7 @@
     display: none;
   }
   .targetFourCenter {
-    justify-content: flex-start;
+    justify-content: center;
   }
   .contenedor-beneficios {
     display: flex;
@@ -298,5 +298,11 @@
   }
   .btn-top {
     justify-content: space-between;
+  }
+}
+
+@media (min-width: 1024px) {
+  .targetFourCenter {
+    justify-content: center;
   }
 }
