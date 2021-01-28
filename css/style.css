@@ -64,6 +64,10 @@
   justify-content: flex-end;
 }
 
+.icon-Download {
+  font-size: 30px;
+}
+
 .SectionAbout {
   display: flex;
   justify-content: flex-start;
@@ -81,7 +85,8 @@
 }
 
 .text_Center {
-  height: 200px;
+  padding: 30px;
+  /* height: 200px; */
   display: flex;
   align-items: center;
 }
@@ -102,6 +107,7 @@
 }
 
 .btn-download {
+  font-size: 14px;
   border: 1px solid #fff;
   padding: 10px;
   border-radius: 50px;
@@ -222,13 +228,13 @@
 }
 
 .btn-flotante {
-  font-size: 28px;
+  font-size: 50px;
   font-weight: bold;
   color: #ffffff;
   border-radius: 5px 0px 0px 5px;
   letter-spacing: 2px;
   background-color: #00bb2d;
-  padding: 10px 20px;
+  padding: 0px 10px;
   position: fixed;
   bottom: 40px;
   right: 0px;
@@ -243,31 +249,32 @@
   transform: translateY(-7px);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   .btn-flotante {
-    font-size: 24px;
-    padding: 12px 20px;
+    font-size: 30px;
+    padding: 6px 12px;
     bottom: 100px;
   }
   .degraded {
-    height: 300px;
+    /* height: 300px; */
     font-size: 12px;
-    padding: 30px 0px;
+    padding: 10px 0px;
   }
   .btn_download {
     margin: 10px;
     margin: 15px 0px;
   }
-  .works {
+  /* .works {
     height: 1300px;
-  }
-  .bg-price {
+  } */
+  /* .bg-price {
     height: 1800px;
-  }
+  } */
   .SectionAbout {
     display: none;
   }
   .text_Center {
+    padding: 0px;
     height: 250px;
   }
   .inputSub {
@@ -299,6 +306,30 @@
   }
   .btn-top {
     justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .img-lavadora {
+    display: none;
+  }
+  .beneficiosRowOne {
+    top: 0px;
+  }
+  .beneficiosRowTwo {
+    bottom: 0px;
+  }
+  .four_card {
+    padding: 10px;
+    width: 170px;
+    height: 170px;
+  }
+  .btn-download {
+    font-size: 12px;
+    width: 350px;
+  }
+  .btn-download {
+    font-size: 11px;
   }
 }
 
