@@ -177,11 +177,11 @@
 }
 .beneficiosRowOne {
   position: relative;
-  top: 20px;
+  top: 25px;
 }
 .beneficiosRowTwo {
   position: relative;
-  bottom: 20px;
+  bottom: 25px;
 }
 
 .bg-price {
