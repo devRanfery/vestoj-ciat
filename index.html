@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <!-- btn whatsapp -->
     <a href="#" class="btn-flotante"><i class="fab fa-whatsapp"></i></a>
 
     <section style="background: #effafe; height: 40px">
@@ -38,7 +39,25 @@
             </a>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-6 btn-top">
-            <a href="#" class="margin-r bg-green"><i class="fas fa-user"></i> Cuenta</a>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="dropdown-toggle margin-r bg-green"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="fas fa-user"></i> Cuenta
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">A</a></li>
+                  <li><a class="dropdown-item" href="#">B</a></li>
+                  <li><a class="dropdown-item" href="#">C</a></li>
+                </ul>
+              </li>
+            </ul>
 
             <a href="#" class="margin-l bg-green"><i class="far fa-bell"></i> Pedido</a>
             <a href="#" class="margin-l bg-green"
